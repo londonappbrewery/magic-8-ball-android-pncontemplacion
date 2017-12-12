@@ -20,7 +20,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:background="@color/colorPrimaryDark"
-        android:text="Ask"
+        android:text="@string/askButtonText"
         android:textColor="@android:color/background_light" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="Make everyday decisions easier!"
+        android:text="@string/textViewHeading"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -41,5 +41,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:contentDescription="@string/eightballDescription"
         app:srcCompat="@drawable/ball1" />
 </RelativeLayout>
